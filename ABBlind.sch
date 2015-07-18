@@ -1,0 +1,507 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:kicad-library
+LIBS:ABBlind-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Led_x2 D?
+U 1 1 55AACF52
+P 1450 4250
+F 0 "D?" H 1450 4475 50  0000 C CNN
+F 1 "Led_x2" H 1450 4000 50  0000 C CNN
+F 2 "" H 1450 4250 60  0000 C CNN
+F 3 "" H 1450 4250 60  0000 C CNN
+	1    1450 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Led_x2 D?
+U 1 1 55AACF7F
+P 1450 4850
+F 0 "D?" H 1450 5075 50  0000 C CNN
+F 1 "Led_x2" H 1450 4600 50  0000 C CNN
+F 2 "" H 1450 4850 60  0000 C CNN
+F 3 "" H 1450 4850 60  0000 C CNN
+	1    1450 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Led_x2 D?
+U 1 1 55AACFA9
+P 1450 5450
+F 0 "D?" H 1450 5675 50  0000 C CNN
+F 1 "Led_x2" H 1450 5200 50  0000 C CNN
+F 2 "" H 1450 5450 60  0000 C CNN
+F 3 "" H 1450 5450 60  0000 C CNN
+	1    1450 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONNECTORS_JACK_FEMALE_STEREO_6_PINS J?
+U 1 1 55AAD159
+P 2650 950
+F 0 "J?" H 3200 450 60  0000 C CNN
+F 1 "JACK_FEMALE_STEREO_6_PINS" H 2650 450 60  0000 C CNN
+F 2 "" H 3100 900 60  0000 C CNN
+F 3 "" H 3100 900 60  0000 C CNN
+	1    2650 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONNECTORS_JACK_FEMALE_STEREO_6_PINS J?
+U 1 1 55AAD4DD
+P 2650 1800
+F 0 "J?" H 3200 1300 60  0000 C CNN
+F 1 "JACK_FEMALE_STEREO_6_PINS" H 2650 1300 60  0000 C CNN
+F 2 "" H 3100 1750 60  0000 C CNN
+F 3 "" H 3100 1750 60  0000 C CNN
+	1    2650 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L TS5A22364 U?
+U 1 1 55AAD96A
+P 5900 1350
+F 0 "U?" H 6050 850 60  0000 C CNN
+F 1 "TS5A22364" H 5650 850 60  0000 C CNN
+F 2 "" H 5800 1200 60  0000 C CNN
+F 3 "" H 5800 1200 60  0000 C CNN
+	1    5900 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L TS5A22364 U?
+U 2 1 55AAF3AA
+P 8150 1350
+F 0 "U?" H 8300 850 60  0000 C CNN
+F 1 "TS5A22364" H 7900 850 60  0000 C CNN
+F 2 "" H 8050 1200 60  0000 C CNN
+F 3 "" H 8050 1200 60  0000 C CNN
+	2    8150 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L TS5A22364 U?
+U 1 1 55AAF4D4
+P 5900 2350
+F 0 "U?" H 6050 1850 60  0000 C CNN
+F 1 "TS5A22364" H 5650 1850 60  0000 C CNN
+F 2 "" H 5800 2200 60  0000 C CNN
+F 3 "" H 5800 2200 60  0000 C CNN
+	1    5900 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L TS5A22364 U?
+U 2 1 55AAF4DA
+P 8150 2350
+F 0 "U?" H 8300 1850 60  0000 C CNN
+F 1 "TS5A22364" H 7900 1850 60  0000 C CNN
+F 2 "" H 8050 2200 60  0000 C CNN
+F 3 "" H 8050 2200 60  0000 C CNN
+	2    8150 2350
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	1800 900  1800 1050
+Wire Notes Line
+	1700 1050 1700 900 
+Wire Notes Line
+	1300 900  1800 900 
+Wire Notes Line
+	1300 850  1300 1100
+Wire Notes Line
+	750  850  750  1100
+Wire Notes Line
+	750  1100 1300 1100
+Wire Notes Line
+	1300 850  750  850 
+Wire Notes Line
+	1800 1050 1300 1050
+Wire Notes Line
+	1600 1050 1600 900 
+Text Notes 1100 1300 0    60   ~ 0
+INPUT A
+Wire Notes Line
+	1800 1800 1800 1950
+Wire Notes Line
+	1700 1950 1700 1800
+Wire Notes Line
+	1300 1800 1800 1800
+Wire Notes Line
+	1300 1750 1300 2000
+Wire Notes Line
+	750  1750 750  2000
+Wire Notes Line
+	750  2000 1300 2000
+Wire Notes Line
+	1300 1750 750  1750
+Wire Notes Line
+	1800 1950 1300 1950
+Wire Notes Line
+	1600 1950 1600 1800
+Text Notes 1100 2200 0    60   ~ 0
+INPUT B
+Wire Wire Line
+	3200 800  3700 800 
+Text Label 3700 800  2    60   ~ 0
+RIGHT_A
+Wire Wire Line
+	3200 1100 3700 1100
+Text Label 3700 1100 2    60   ~ 0
+LEFT_A
+Text Label 3700 1200 2    60   ~ 0
+GND_A
+Wire Wire Line
+	3700 1200 3200 1200
+Wire Wire Line
+	3200 1650 3700 1650
+Text Label 3700 1650 2    60   ~ 0
+RIGHT_B
+Wire Wire Line
+	3200 1950 3700 1950
+Text Label 3700 1950 2    60   ~ 0
+LEFT_B
+Text Label 3700 2050 2    60   ~ 0
+GND_B
+Wire Wire Line
+	3700 2050 3200 2050
+$Comp
+L CONNECTORS_JACK_FEMALE_STEREO_6_PINS J?
+U 1 1 55AB0263
+P 1800 2800
+F 0 "J?" H 2350 2300 60  0000 C CNN
+F 1 "JACK_FEMALE_STEREO_6_PINS" H 1800 2300 60  0000 C CNN
+F 2 "" H 2250 2750 60  0000 C CNN
+F 3 "" H 2250 2750 60  0000 C CNN
+	1    1800 2800
+	-1   0    0    -1  
+$EndComp
+Wire Notes Line
+	2650 2800 2650 2950
+Wire Notes Line
+	2750 2950 2750 2800
+Wire Notes Line
+	3150 2800 2650 2800
+Wire Notes Line
+	3150 2750 3150 3000
+Wire Notes Line
+	3700 2750 3700 3000
+Wire Notes Line
+	3700 3000 3150 3000
+Wire Notes Line
+	3150 2750 3700 2750
+Wire Notes Line
+	2650 2950 3150 2950
+Wire Notes Line
+	2850 2950 2850 2800
+Text Notes 3350 3200 2    60   ~ 0
+OUTPUT
+Wire Wire Line
+	1250 2650 750  2650
+Text Label 750  2650 0    60   ~ 0
+RIGHT_OUT
+Wire Wire Line
+	1250 2950 750  2950
+Text Label 750  2950 0    60   ~ 0
+LEFT_OUT
+Text Label 750  3050 0    60   ~ 0
+GND_OUT
+Wire Wire Line
+	750  3050 1250 3050
+Text Label 6950 1350 2    60   ~ 0
+RIGHT_OUT
+Wire Wire Line
+	6350 1350 6950 1350
+Wire Wire Line
+	5450 1400 4950 1400
+Text Label 4950 1400 0    60   ~ 0
+RIGHT_A
+Wire Wire Line
+	5450 2400 4950 2400
+Text Label 4950 2400 0    60   ~ 0
+LEFT_A
+Text Label 7200 1400 0    60   ~ 0
+GND_A
+Wire Wire Line
+	7200 1400 7700 1400
+Wire Wire Line
+	5450 1300 4950 1300
+Text Label 4950 1300 0    60   ~ 0
+RIGHT_B
+Wire Wire Line
+	5450 2300 4950 2300
+Text Label 4950 2300 0    60   ~ 0
+LEFT_B
+Text Label 7200 1300 0    60   ~ 0
+GND_B
+Wire Wire Line
+	7200 1300 7700 1300
+Text Label 7200 2400 0    60   ~ 0
+GND_A
+Wire Wire Line
+	7200 2400 7700 2400
+Text Label 7200 2300 0    60   ~ 0
+GND_B
+Wire Wire Line
+	7200 2300 7700 2300
+Wire Wire Line
+	6350 2350 6850 2350
+Text Label 6850 2350 2    60   ~ 0
+LEFT_OUT
+Text Label 9100 1350 2    60   ~ 0
+GND_OUT
+Wire Wire Line
+	9100 1350 8600 1350
+Text Label 9100 2350 2    60   ~ 0
+GND_OUT
+Wire Wire Line
+	9100 2350 8600 2350
+NoConn ~ 3200 900 
+NoConn ~ 3200 1000
+NoConn ~ 3200 1750
+NoConn ~ 3200 1850
+NoConn ~ 1250 2750
+NoConn ~ 1250 2850
+NoConn ~ 1250 3150
+Wire Wire Line
+	5450 1550 4850 1550
+Text Label 4850 1550 0    60   ~ 0
+AUDIO_CNTRL
+Wire Wire Line
+	5450 2550 4850 2550
+Text Label 4850 2550 0    60   ~ 0
+AUDIO_CNTRL
+Wire Wire Line
+	7700 1550 7100 1550
+Text Label 7100 1550 0    60   ~ 0
+AUDIO_CNTRL
+Wire Wire Line
+	7650 2550 7050 2550
+Text Label 7050 2550 0    60   ~ 0
+AUDIO_CNTRL
+Wire Wire Line
+	900  4250 1150 4250
+Wire Wire Line
+	900  4250 900  5800
+Wire Wire Line
+	1150 5450 900  5450
+Connection ~ 900  5450
+Wire Wire Line
+	1150 4850 900  4850
+Connection ~ 900  4850
+$Comp
+L R R?
+U 1 1 55AB12ED
+P 2000 4150
+F 0 "R?" V 2080 4150 50  0000 C CNN
+F 1 "R" V 2000 4150 50  0000 C CNN
+F 2 "" V 1930 4150 30  0000 C CNN
+F 3 "" H 2000 4150 30  0000 C CNN
+	1    2000 4150
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 55AB1412
+P 2000 4350
+F 0 "R?" V 2080 4350 50  0000 C CNN
+F 1 "R" V 2000 4350 50  0000 C CNN
+F 2 "" V 1930 4350 30  0000 C CNN
+F 3 "" H 2000 4350 30  0000 C CNN
+	1    2000 4350
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 55AB14FE
+P 2000 4750
+F 0 "R?" V 2080 4750 50  0000 C CNN
+F 1 "R" V 2000 4750 50  0000 C CNN
+F 2 "" V 1930 4750 30  0000 C CNN
+F 3 "" H 2000 4750 30  0000 C CNN
+	1    2000 4750
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 55AB1504
+P 2000 4950
+F 0 "R?" V 2080 4950 50  0000 C CNN
+F 1 "R" V 2000 4950 50  0000 C CNN
+F 2 "" V 1930 4950 30  0000 C CNN
+F 3 "" H 2000 4950 30  0000 C CNN
+	1    2000 4950
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 55AB1578
+P 2000 5350
+F 0 "R?" V 2080 5350 50  0000 C CNN
+F 1 "R" V 2000 5350 50  0000 C CNN
+F 2 "" V 1930 5350 30  0000 C CNN
+F 3 "" H 2000 5350 30  0000 C CNN
+	1    2000 5350
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 55AB157E
+P 2000 5550
+F 0 "R?" V 2080 5550 50  0000 C CNN
+F 1 "R" V 2000 5550 50  0000 C CNN
+F 2 "" V 1930 5550 30  0000 C CNN
+F 3 "" H 2000 5550 30  0000 C CNN
+	1    2000 5550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1850 4150 1750 4150
+Wire Wire Line
+	1750 4350 1850 4350
+Wire Wire Line
+	1850 4750 1750 4750
+Wire Wire Line
+	1850 4950 1750 4950
+Wire Wire Line
+	1850 5350 1750 5350
+Wire Wire Line
+	1850 5550 1750 5550
+$Comp
+L GND #PWR?
+U 1 1 55AB1886
+P 900 5800
+F 0 "#PWR?" H 900 5550 50  0001 C CNN
+F 1 "GND" H 900 5650 50  0000 C CNN
+F 2 "" H 900 5800 60  0000 C CNN
+F 3 "" H 900 5800 60  0000 C CNN
+	1    900  5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 55AB18CB
+P 6450 2700
+F 0 "#PWR?" H 6450 2450 50  0001 C CNN
+F 1 "GND" H 6450 2550 50  0000 C CNN
+F 2 "" H 6450 2700 60  0000 C CNN
+F 3 "" H 6450 2700 60  0000 C CNN
+	1    6450 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 2700 6450 2650
+Wire Wire Line
+	6450 2650 6350 2650
+$Comp
+L GND #PWR?
+U 1 1 55AB19F7
+P 6450 1700
+F 0 "#PWR?" H 6450 1450 50  0001 C CNN
+F 1 "GND" H 6450 1550 50  0000 C CNN
+F 2 "" H 6450 1700 60  0000 C CNN
+F 3 "" H 6450 1700 60  0000 C CNN
+	1    6450 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 1700 6450 1650
+Wire Wire Line
+	6450 1650 6350 1650
+$Comp
+L GND #PWR?
+U 1 1 55AB1A45
+P 8700 1700
+F 0 "#PWR?" H 8700 1450 50  0001 C CNN
+F 1 "GND" H 8700 1550 50  0000 C CNN
+F 2 "" H 8700 1700 60  0000 C CNN
+F 3 "" H 8700 1700 60  0000 C CNN
+	1    8700 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 1700 8700 1650
+Wire Wire Line
+	8700 1650 8600 1650
+$Comp
+L GND #PWR?
+U 1 1 55AB1A71
+P 8700 2700
+F 0 "#PWR?" H 8700 2450 50  0001 C CNN
+F 1 "GND" H 8700 2550 50  0000 C CNN
+F 2 "" H 8700 2700 60  0000 C CNN
+F 3 "" H 8700 2700 60  0000 C CNN
+	1    8700 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 2700 8700 2650
+Wire Wire Line
+	8700 2650 8600 2650
+Wire Wire Line
+	2150 4150 2550 4150
+Text Label 2550 4150 2    60   ~ 0
+LED_1_1
+Wire Wire Line
+	2150 4350 2550 4350
+Text Label 2550 4350 2    60   ~ 0
+LED_1_2
+Wire Wire Line
+	2150 4750 2550 4750
+Text Label 2550 4750 2    60   ~ 0
+LED_2_1
+Wire Wire Line
+	2150 4950 2550 4950
+Text Label 2550 4950 2    60   ~ 0
+LED_2_2
+Wire Wire Line
+	2150 5350 2550 5350
+Text Label 2550 5350 2    60   ~ 0
+LED_3_1
+Wire Wire Line
+	2150 5550 2550 5550
+Text Label 2550 5550 2    60   ~ 0
+LED_3_2
+$EndSCHEMATC
