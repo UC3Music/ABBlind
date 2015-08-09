@@ -1,4 +1,4 @@
-update=Sun 19 Jul 2015 12:13:29 AM CEST
+update=Sun 09 Aug 2015 12:40:42 AM CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,3 +59,5 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=/home/def/Repositories/kicad-library/kicad-library
+LibName31=/home/def/Dropbox/Share/Kicad/Opendous_KiCad_Libraries/library/opendous
+LibName32=arduino_uno
