@@ -2,7 +2,7 @@ Component,Amount,Reference,Seller,Unit Cost,Cost,
 Jack Female 6.35mm THD,3,568-NYS219 ,Mouser,0.724,2.172,
 TS5A22364,2,-,-,0,0,(samples)
 Capacitor 0805 ceramic 100nF,4,80-C0805C104K3R,Mouser,0.091,0.364,
-Capacitor 0805 ceramic 0.1uF,1,81-GRM219R61A105KA1D,Mouser,0.109,0.109,
+Capacitor 0805 ceramic 1uF,1,81-GRM219R61A105KA1D,Mouser,0.109,0.109,
 Regulator TLV70033DDCR,1,595-TLV70033DDCR ,Mouser,0.52€,0.52€,
 LED Bicolor 3528,3,859-LTST-E682KRKGWT,Mouser,0.343,1.029,
 Resistor 0805 150R,6,71-CRCW0805-150-E3,Mouser,0.091,0.546,
