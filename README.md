@@ -12,6 +12,16 @@ Why to spend lots of money in audiophile quality devices when you cannot tell th
 As it is based on Arduino, you can modify ABBlind to add custom testing modes and more functionality.
 
 ## v0.1 Prototype
+### Assembled
+
+<p align="center">
+<img src="doc/images/ABBlind-v0_1_assembled_front.jpg" width="400" align="center">
+</p>
+
+<p align="center">
+<img src="doc/images/ABBlind-v0_1_assembled_back.jpg" width="400" align="center">
+</p>
+
 ### PCBs
 
 <p align="center">
