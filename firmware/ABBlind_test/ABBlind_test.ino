@@ -20,6 +20,8 @@ static const uint8_t LED_03[2] = {11, 10};
 
 static const uint8_t PUSH_BUTTON = 2;
 
+static const uint8_t AUDIO_SWITCH = A3;
+
 //-- Other constant definitions
 static const uint8_t COLOR1 = 0;
 static const uint8_t COLOR2 = 1;
@@ -63,6 +65,10 @@ void setup()
   pinMode(PUSH_BUTTON, INPUT_PULLUP);
   attachInterrupt(digitalPinToInterrupt(PUSH_BUTTON), button_pressed, RISING);
 
+  //- Setup audio switch
+  pinMode(AUDIO_SWITCH, OUTPUT);
+  digitalWrite(AUDIO_SWITCH, LOW);
+  
   start_sequence();
   start_sequence();
 }
@@ -77,6 +83,7 @@ void loop()
     digitalWrite(LED_01[1], LOW);
     digitalWrite(LED_02[1], LOW);
     digitalWrite(LED_03[1], LOW);
+    digitalWrite(AUDIO_SWITCH, LOW);
   }
   else if (state == 1)
   {
@@ -86,6 +93,7 @@ void loop()
     digitalWrite(LED_01[1], LOW);
     digitalWrite(LED_02[1], LOW);
     digitalWrite(LED_03[1], LOW);
+    digitalWrite(AUDIO_SWITCH, LOW);
   }
   else if (state == 2)
   {
@@ -95,6 +103,7 @@ void loop()
     digitalWrite(LED_01[1], HIGH);
     digitalWrite(LED_02[1], HIGH);
     digitalWrite(LED_03[1], HIGH);
+    digitalWrite(AUDIO_SWITCH, LOW);
   }
   else if (state == 3)
   {
@@ -104,6 +113,7 @@ void loop()
     digitalWrite(LED_01[1], HIGH);
     digitalWrite(LED_02[1], HIGH);
     digitalWrite(LED_03[1], HIGH);
+    digitalWrite(AUDIO_SWITCH, LOW);
   }
 
   delay(500);
