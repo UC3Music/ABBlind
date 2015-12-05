@@ -93,7 +93,7 @@ void loop()
     digitalWrite(LED_01[1], LOW);
     digitalWrite(LED_02[1], LOW);
     digitalWrite(LED_03[1], LOW);
-    digitalWrite(AUDIO_SWITCH, LOW);
+    digitalWrite(AUDIO_SWITCH, HIGH);
   }
   else if (state == 2)
   {
@@ -113,7 +113,7 @@ void loop()
     digitalWrite(LED_01[1], HIGH);
     digitalWrite(LED_02[1], HIGH);
     digitalWrite(LED_03[1], HIGH);
-    digitalWrite(AUDIO_SWITCH, LOW);
+    digitalWrite(AUDIO_SWITCH, HIGH);
   }
 
   delay(500);
