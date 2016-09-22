@@ -30,6 +30,6 @@ As it is based on Arduino, you can modify ABBlind to add custom testing modes an
 
 ## Firmware
 ### mbed version
-Sources available at: https://developer.mbed.org/users/def/code/ABBlind_hardware_test/
+Sources available at: https://developer.mbed.org/users/def/code/ABBlind/
 # Credits
 * Author: [David Estevez Fernandez](https://github.com/David-Estevez)
